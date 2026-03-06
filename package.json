@@ -1,0 +1,37 @@
+{
+  "name": "unsandboxed-talko",
+  "version": "0.1.0",
+  "description": "Taco :3",
+  "devEngines": {
+    "packageManager": {
+      "name": "yarn",
+      "onFail": "download"
+    },
+    "runtime": {
+      "name": "node",
+      "onFail": "warn",
+      "version": ">=22.12.0"
+    }
+  },
+  "license": "MPL-2.0",
+  "type": "commonjs",
+  "devDependencies": {
+    "ncu": "^0.2.1",
+    "raw-loader": "npm:raw-loader",
+    "yarn": "^1.22.22"
+  },
+  "dependencies": {
+    "@turbowarp/nanolog": "npm:@turbowarp/nanolog",
+    "atob": "^2.1.2",
+    "base64-js": "^1.5.1",
+    "btoa": "^1.2.1",
+    "fp-ts": "^2.16.11",
+    "futil": "^1.76.4",
+    "immutable": "^5.1.5",
+    "json5": "^2.2.3",
+    "lodash": "^4.17.23",
+    "lodash-es": "^4.17.23",
+    "ramda": "^0.32.0",
+    "text-encoding": "^0.7.0"
+  }
+}
