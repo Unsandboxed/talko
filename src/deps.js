@@ -8,5 +8,7 @@ module.exports = {
   lodash: () => require('lodash'),
   lodashfp: () => require('lodash/fp'),
   futil: () => require('futil'),
-  fpts: () => require('fp-ts')
+  fpts: () => require('fp-ts'),
+  immutable: () => require('immutable'),
+  formatMessage: () => require('format-message')
 };

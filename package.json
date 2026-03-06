@@ -17,7 +17,6 @@
   "type": "commonjs",
   "devDependencies": {
     "ncu": "^0.2.1",
-    "raw-loader": "npm:raw-loader",
     "yarn": "^1.22.22"
   },
   "dependencies": {
@@ -25,6 +24,7 @@
     "atob": "^2.1.2",
     "base64-js": "^1.5.1",
     "btoa": "^1.2.1",
+    "format-message": "^6.2.4",
     "fp-ts": "^2.16.11",
     "futil": "^1.76.4",
     "immutable": "^5.1.5",
